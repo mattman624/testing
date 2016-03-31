@@ -21,7 +21,7 @@ require "pig_latin"
 
 describe "#translate" do
 
-  it "translates a word beginning with a vowel" do
+  it "#translates a word beginning with a vowel" do
     s = translate("apple")
     s.should == "appleay"
   end
